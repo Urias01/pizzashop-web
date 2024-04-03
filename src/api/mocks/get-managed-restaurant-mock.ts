@@ -2,7 +2,7 @@ import { http, HttpResponse } from 'msw'
 
 import { GetManagedRestaurantResponse } from '../get-managed-restaurant'
 
-export const GetManagedRestaurantMock = http.get<
+export const getManagedRestaurantMock = http.get<
   never,
   never,
   GetManagedRestaurantResponse
