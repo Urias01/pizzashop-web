@@ -44,7 +44,7 @@ export function SignIn() {
         },
       })
     } catch {
-      toast.error('Não foi possível enviar o link de autenticação')
+      toast.error('Credenciais inválidas')
     }
   }
 
